@@ -1,0 +1,45 @@
+:root {
+  --dark: #292c35;
+  --light: #f1f1f1;
+  --label: #111;
+}
+
+body.light {
+  background-color: var(--light);
+}
+
+body.dark {
+  background-color: var(--dark);
+}
+
+div {
+  position: absolute;
+  width: 235.38px;
+  height: 102px;
+  left: 602px;
+  top: 275px;
+  background-color: var(--label);
+  border-radius: 60px;
+}
+
+#theme.dark .ball {
+	position: absolute;
+	right: 2px;
+  transition: 0.5s;
+}
+
+#theme.light .ball {
+  position: absolute;
+  right: 132px;
+  transition: 0.5s;
+}
+
+.sun {
+	position: relative;
+	left: 26px;
+}
+
+.moon {
+	position: relative;
+	left: 2px;
+}
